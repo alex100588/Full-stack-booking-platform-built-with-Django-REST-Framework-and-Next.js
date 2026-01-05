@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This project is a full-stack app built from scratch, covering both backend and frontend development from setup to deployment.
 
-## Getting Started
+The application features a modern, responsive UI, secure authentication, property listings, bookings, favorites, and real-time chat, closely mirroring core Airbnb functionality.
 
-First, run the development server:
+🚀 Tech Stack
+Frontend
+Next.js – React framework for server-side rendering and routing
+React – Component-based UI development
+Tailwind CSS – Modern, responsive styling
+TypeScript – Type-safe frontend development
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Backend
+Django – Backend framework
+Django REST Framework (DRF) – RESTful API
+Custom User Model – Extended authentication logic
+JWT Authentication – Access & refresh tokens
+WebSockets – Real-time chat functionality
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Infrastructure & DevOps
+Docker – Containerized backend setup
+DigitalOcean – Deployment and hosting
+PostgreSQL (or SQLite during development)
+REST API Architecture
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+✨ Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+User authentication & authorization
+Property creation and management
+Property search & advanced filters
+Booking & reservations system
+Favorites (wishlist)
+Landlord dashboard
+User profile & personal listings
+Real-time chat between users
 
-## Learn More
+Responsive, production-ready UI
 
-To learn more about Next.js, take a look at the following resources:
+Token refresh & secure API access
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Full deployment workflow

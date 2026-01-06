@@ -10,13 +10,14 @@ export const Navbar = () => {
       <div className="max-w-[1500px] mx-auto px-6">
         <div className="flex justify-between items-center ">
           <Link href="/">
-            <Image
+          <p className="text-white text-3xl">Logo</p>
+            {/* <Image
               src="/logoAlex1.png"
               alt="Logo"
               width={120}
               height={40}
               priority
-            />
+            /> */}
           </Link>
 
           <div className="flex space-x-6">

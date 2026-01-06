@@ -1,40 +1,53 @@
-This project is a full-stack app built from scratch, covering both backend and frontend development from setup to deployment.
+Booking App is a full-stack web application focused on property booking and user interaction, built using Django REST Framework and Next.js.
 
-The application features a modern, responsive UI, secure authentication, property listings, bookings, favorites, and real-time chat, closely mirroring core Airbnb functionality.
+The project demonstrates end-to-end development of a modern booking platform, including authentication, booking management, real-time communication, and a responsive UI.
 
 🚀 Tech Stack
+
 Frontend
-Next.js – React framework for server-side rendering and routing
-React – Component-based UI development
-Tailwind CSS – Modern, responsive styling
-TypeScript – Type-safe frontend development
+
+Next.js (React)
+
+TypeScript
+
+Tailwind CSS
 
 Backend
-Django – Backend framework
-Django REST Framework (DRF) – RESTful API
-Custom User Model – Extended authentication logic
-JWT Authentication – Access & refresh tokens
-WebSockets – Real-time chat functionality
 
-Infrastructure & DevOps
-Docker – Containerized backend setup
-DigitalOcean – Deployment and hosting
-PostgreSQL (or SQLite during development)
-REST API Architecture
+Django
 
-✨ Features
+Django REST Framework
 
-User authentication & authorization
-Property creation and management
-Property search & advanced filters
-Booking & reservations system
+Custom User Model
+
+JWT Authentication (access & refresh tokens)
+
+WebSockets for real-time chat
+
+Infrastructure
+
+Docker
+
+PostgreSQL (SQLite for development)
+
+Deployed on DigitalOcean
+
+RESTful API architecture
+
+✨ Key Features
+
+User authentication & role-based access
+
+Property listings & management
+
+Booking & availability system
+
 Favorites (wishlist)
-Landlord dashboard
-User profile & personal listings
+
+User dashboard (hosts & guests)
+
 Real-time chat between users
 
+Secure token refresh flow
+
 Responsive, production-ready UI
-
-Token refresh & secure API access
-
-Full deployment workflow
